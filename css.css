@@ -1,0 +1,281 @@
+body {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    width: 100%;
+    height: 2140px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 2;
+}
+
+.gridbox {
+    display: grid;
+    grid-template: 120px 600px 0px 470px 470px / 100%;
+    overflow: visible;
+    justify-content: center;
+    align-content: center;
+}
+
+.text1 {
+ background-color: white;
+ grid-area: 1 / 1 / span 1 / span 1;
+ height: 50px;
+ width: 1350px;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ bottom: 10px;
+ right: 0px;
+ left: 50px;
+ top: 20px;
+ z-index: 2;
+
+}
+
+.border {
+    border: 1px solid black;   
+}
+
+.border:hover {
+    background-color: hsl(270, 9%, 17%);
+    color: white;
+}
+
+.text2 {
+ background-color: hsl(256, 26%, 20%);
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ width: 100%;
+}
+
+.text3 {
+ background-color: white;
+}
+
+.text4 {
+ background-color: white;
+ grid-area: 4 / 1 / span 1 / span 1;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 100px;
+}
+
+.text5 {
+ background-color: hsl(0, 0%, 98%);
+ width: 100%;
+ height: 470px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+img {
+  position: relative;
+  top: 130px;
+  right: 70px;
+}
+
+.textbox1 {
+    background-color: hsl(256, 26%, 20%);
+    height: 400px;
+    width: 800px;
+    position: relative;
+    padding-left: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox1 .border{
+    border: 1px solid white;
+}
+
+.textbox2 {
+    background-color: white;
+    width: 1350px;
+    height: 450px;
+    transform: translate(0px, 250px);
+    padding-left: 100px;
+}
+
+.textbox2 hr {
+    border: 1px solid black;
+    position: relative;
+    bottom: 60px;
+}
+
+hr {
+    width: 200px;
+    float: left;
+    border: 1px solid white;
+}
+
+h1 {
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.p1 {
+    line-height: 25px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+div.border {
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+}
+
+div.border:hover {
+    background-color: white;
+    color: black;
+}
+
+.svg1 {
+    position: relative;
+    left: 380px;
+}
+
+.svg2 {
+    width: 100;
+    height: 100;
+}
+
+.svg3 {
+    position: relative;
+    left: 750px;
+}
+
+.header1 {
+    position: absolute;
+    left: 570px;
+    bottom: 120px;
+}
+
+.header2 {
+    position: absolute;
+    left: 1050px;
+    bottom: 120px;
+}
+
+.flex {
+    background-color: white;
+    display: flex;
+    width: 1250px;
+    height: 300px;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.textbox4 {
+    background-color: hsl(256, 26%, 20%);
+    width: 1250px;
+    height: 250px;
+    transform: translate(140px, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.textbox4 p {
+    position: relative;
+    right: 100px;
+    padding: 10px;
+}
+
+.textbox4 .border {
+    border: 1px solid white;
+}
+
+.textbox4 .border:hover {
+    background-color: white;
+    color: black;
+}
+
+.insure {
+    font-size: 30px;
+}
+
+.text5 ul {
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.text5 hr {
+    width: 94%;
+    margin-left: 3%;
+    padding-top: -20px;
+    margin-top: -10px;
+}
+
+.textbox5 {
+    width: 85%;
+    height: 50px;
+    margin-left: 3%;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.textbox6 {
+    width: 85%;
+    height: 250px;
+    margin-left: 3%;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.header3 {
+    position: relative;
+    right: 25px;
+    font-weight: 200;
+}
+
+.header4 {
+    position: relative;
+    right: 25px;
+}
+
+.background {
+    position: absolute;
+    right: 20px;
+}
+
+.background2 {
+    position: absolute;
+    transform: translate(1080px, -90px);
+    z-index: 1;
+}
+
+.background3 {
+    position: absolute;
+    transform: translate(0, 600px);
+    z-index: 2;
+}
